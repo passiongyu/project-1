@@ -159,5 +159,7 @@ rebase: 합치고자 하는 branch의 최신 commit으로 base를 옮긴다. -> 
 이후 다시 master브랜치에서 새 기능 브랜치 따서 계속 작업하도록 
  - git fetch (origin) : 기본 원격 저장소origin으로부터 최신 메타 정보 받아옴 
  - git branch -r : 원격 브랜치 확인
- - git fetch -p : 원격에서 삭제된 브랜치를 로컬에서도 삭제
+ - git fetch -p : 원격에서 삭제된 브랜치를 로컬에서도 확인
+ - git branch -d 브랜치명: 로컬 브랜치 삭제
+ - git checkout -b 로컬브랜치명 origin/원격브랜치명 : 원격 브랜치를 로컬 브랜치로 바로 만들기
  
