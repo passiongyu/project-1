@@ -21,7 +21,14 @@
 
 
 명령어: git <명령어>
-
+깃 사용자 정보 등록
+ 전역 리포지토리
+  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
+ 현재 리포지토리만
+  git config user.name "Your Name"
+  git config user.email "you@example.com"
+ 
 - git init: 특정 폴더에서 폴더 하위에 있는 것들을 버전관리하기 위한 초기화 명령어 (버전관리하겠다) 
   - 이제 부터 이 폴더의 버전을 관리할 수 있다. 
 - git status: 버전관리되고 있는 폴더의 상태를 알려줘 , 변경된게 있는지 알려줘. 
