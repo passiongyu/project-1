@@ -152,3 +152,12 @@ Repository끼리의 상호작용 종류
 
 
 rebase: 합치고자 하는 branch의 최신 commit으로 base를 옮긴다. -> 머지 커밋이 생기지 않는다. 
+
+실제 팀 프로젝트 해보니
+
+각자 기능 브랜치를 master브랜치로부터 만들고 그걸 merge request(pull request)하라고 하고 옵션은 mergerequest되면 그 브랜치는 삭제되도록 관리 
+이후 다시 master브랜치에서 새 기능 브랜치 따서 계속 작업하도록 
+ - git fetch (origin) : 기본 원격 저장소origin으로부터 최신 메타 정보 받아옴 
+ - git branch -r : 원격 브랜치 확인
+ - git fetch -p : 원격에서 삭제된 브랜치를 로컬에서도 삭제
+ 
